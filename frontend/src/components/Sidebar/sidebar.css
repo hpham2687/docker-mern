@@ -1,0 +1,11 @@
+.menu-icon {
+    transform: rotate(90deg);
+    transition: transform 0.35s ease;
+    transform-origin: 0.5em 50%;
+}
+
+.menu-icon-reverse {
+    transform: rotate(0deg);
+    transition: transform 0.35s ease;
+    transform-origin: 0.5em 50%;
+}

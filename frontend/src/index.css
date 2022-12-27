@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header-link {
+    @apply
+    relative
+    cursor-pointer
+    hover:scale-125
+    duration-300
+    text-3xl
+    text-blue-600
+    font-bold
+    mb-6
+}
+
+.header-link-after {
+    @apply
+    after:content-['']
+    after:block
+    after:absolute 
+    after:bottom-[-5px] 
+    after:left-1/2 
+    after:transform 
+    after:-translate-x-1/2 
+    after:h-1 after:bg-blue-600 
+    after:w-full
+}
